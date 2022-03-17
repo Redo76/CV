@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('../fonts/ChunkFive-Regular.eot');
+    src: url('../fonts/ChunkFive-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChunkFive-Regular.woff2') format('woff2'),
+        url('../fonts/ChunkFive-Regular.woff') format('woff'),
+        url('../fonts/ChunkFive-Regular.ttf') format('truetype'),
+        url('../fonts/ChunkFive-Regular.svg#ChunkFive-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ChunkFive Print';
+    src: url('../fonts/ChunkFivePrint.eot');
+    src: url('../fonts/ChunkFivePrint.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChunkFivePrint.woff2') format('woff2'),
+        url('../fonts/ChunkFivePrint.woff') format('woff'),
+        url('../fonts/ChunkFivePrint.ttf') format('truetype'),
+        url('../fonts/ChunkFivePrint.svg#ChunkFivePrint') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://i.pinimg.com/originals/36/41/bd/3641bd8a4e4342b9f67971a545f0b7ce.jpg") no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    margin:auto;
+    font-size: 25px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 4em;
+}
+header
+{
+    font-family: ChunkFive, Impact;
+    text-align: center;
+    border-radius:1em;
+    text-shadow: 0em 0em 1em white;
+
+}
+.profil{
+    order: 3;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 2em;
+    color: black;
+}
+.profil p{
+    margin-top: 0.5em
+}
+.chat{
+    margin: auto;
+    width: 15em;
+    height: 10em;
+}
+.experience
+{
+    color: blue;
+    margin-top: 2em;
+}
+.competence
+{
+    color:brown;
+    margin-top: 2em;
+}
+.formation{
+    color: green;
+    margin-top: 2em;
+}
+h2{
+    text-align: center;
+    margin-bottom: 1em;
+    font-weight: 900;
+    text-decoration: underline;
+}
+ul
+{
+    text-align: center;
+    list-style: inside;
+}
