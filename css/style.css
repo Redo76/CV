@@ -94,6 +94,10 @@ ul
 h1, h2{
     text-transform: uppercase;
 }
+#w3c{
+    display: block;
+    margin: auto;
+}
 @media all and (min-width:900px){
     main{
         flex-direction: row;
@@ -128,5 +132,8 @@ h1, h2{
     }
     section{
         margin-left: 10px;
+    }
+    #w3c{
+        display: none;
     }
 }
